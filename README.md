@@ -1,65 +1,52 @@
-Java Programming Codes
-Here you will find Java programs written from scratch, organised topic by topic, from the basics to the more advanced concepts. Each folder contains the source code (.java files) for one topic.
-Topics Covered
-#	Folder	What it covers
-1	Dynamic user inputScanner	Taking input from the user at runtime with the Scanner class
-2	local variable	Variables declared inside methods and their scope
-3	Global variable	Class-level (instance and static) variables
-4	Class Typecasting	Implicit and explicit type conversion between data types and classes
-5	ELSE-IF-LADDER	Decision making with if, else if and else (age group, salary, discount, percentage, etc.)
-6	For loop	Repeating code using for loops
-7	logics	Practice programs for building problem-solving logic
-8	Method overloading	Multiple methods with the same name but different parameters
-9	METHOD WITH RETURN TYPE	Methods that return a value to the caller
-10	Encapsulation	Data hiding using private fields with getters and setters
-11	Abstraction	Hiding implementation details and showing only essentials
-12	Abstract class	Classes with abstract and concrete methods
-13	Interface	Defining contracts and achieving multiple inheritance
-How to Run a Program
-Make sure the JDK is installed:
-bash
-   java -version
-Go into the topic folder:
-bash
-   cd "ELSE-IF-LADDER"
-Compile and run:
-bash
-   javac AgeGroup.java
-   java AgeGroup
-You can also open the folder in VS Code and click Run above the main method.
-Example
-java
-class AgeGroup {
-    public static void main(String[] args) {
-        int age = 45;
-        if (age < 13) {
-            System.out.println("Child");
-        } else if (age <= 19) {
-            System.out.println("Teenager");
-        } else if (age <= 59) {
-            System.out.println("Adult");
-        } else {
-            System.out.println("Senior citizen");
-        }
-    }
-}
-Output: Adult
-Repository Structure
-Java-/
-├── Abstract class/
-├── Abstraction/
-├── Class Typecasting/
-├── Dynamic user inputScanner/
-├── ELSE-IF-LADDER/
-├── Encapsulation/
-├── For loop/
-├── Global variable/
-├── Interface/
-├── local variable/
-├── logics/
-├── Method overloading/
-├── METHOD WITH RETURN TYPE/
-└── README.md
-Author
-Animesh Kumar Singh GitHub: @singhani09
-More topics will be added as I keep learning. Feel free to star the repo if it helps you.
+# Java Programming Codes
+
+Java programs written from scratch, organised topic by topic from the basics to advanced concepts. Each folder contains the `.java` source files for one topic.
+
+## Topics Covered
+
+| # | Folder | What it covers |
+|---|--------|----------------|
+| 1 | `Dynamic user inputScanner` | Taking runtime input with the `Scanner` class |
+| 2 | `local variable` | Variables declared inside methods and their scope |
+| 3 | `Global variable` | Class-level (instance and static) variables |
+| 4 | `Class Typecasting` | Implicit and explicit type conversion |
+| 5 | `ELSE-IF-LADDER` | Decision making with `if`, `else if` and `else` |
+| 6 | `Nested if` | `if` statements inside other `if` statements |
+| 7 | `SWITCH STATEMENT` | Multi-way branching with `switch` |
+| 8 | `For loop` | Repeating code with `for` loops |
+| 9 | `logics` | Problem-solving practice programs |
+| 10 | `ReverseString` | Reversing a string |
+| 11 | `SWAPING NOS.` | Swapping two numbers |
+| 12 | `Methods` | Creating and calling methods |
+| 13 | `MethodParameters` | Passing parameters to methods |
+| 14 | `METHOD WITH RETURN TYPE` | Methods that return a value |
+| 15 | `Method overloading` | Same method name, different parameters |
+| 16 | `Static Methods (default)` | Static methods without parameters |
+| 17 | `Static Methods with (parameter)` | Static methods that take parameters |
+| 18 | `Non static - methods (default)` | Non-static methods without parameters |
+| 19 | `Non-static methods with para...` | Non-static methods with parameters |
+| 20 | `Non static bw class with return ...` | Non-static methods between classes with return values |
+| 21 | `Non static to static bw class wit...` | Calling static methods from non-static ones across classes |
+| 22 | `Reference variable default` | Object reference variables |
+| 23 | `Reference variable(return type)` | Returning reference variables from methods |
+| 24 | `Encapsulation` | Data hiding with private fields, getters and setters |
+| 25 | `Abstraction` | Showing only essential details |
+| 26 | `Abstract class` | Classes with abstract and concrete methods |
+| 27 | `Interface` | Contracts and multiple inheritance |
+| 28 | `Runtimepolymorphism` | Method overriding and runtime polymorphism |
+
+## How to Run a Program
+
+1. Check that the JDK is installed: `java -version`
+2. Go into a topic folder: `cd "ELSE-IF-LADDER"`
+3. Compile: `javac AgeGroup.java`
+4. Run: `java AgeGroup`
+
+You can also open the folder in VS Code and click **Run** above the `main` method.
+
+## Author
+
+**Animesh Kumar Singh**
+GitHub: [@singhani09](https://github.com/singhani09)
+
+More topics will be added as I keep learning.
