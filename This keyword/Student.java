@@ -1,5 +1,3 @@
-
-
 class Student{
     char sec;
     String Stdname;
