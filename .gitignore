@@ -1,6 +1,6 @@
 *.class
+*.jar
+.idea/
 .vscode/
-.dist/
-.DS_Store
-.DS_Store
-.vscode/
+out/
+target/
