@@ -14,16 +14,21 @@ class Library{
     void cafe(){
         System.err.println("to provide tea");
     }
-    void ansim(Library l1){
+}
+class Provider{
+    static void ansim(Library l1){
         l1.printer();
         l1.cafe();
         System.out.println(l1.hashCode());
         System.out.println(l1.toString());
         l1.librarian();
     }
+}
+class Mainclass1{
     public static void main(String[] args) {
         Library l2 = new Library();
-        l2.ansim(l2);
+        Provider.ansim(l2);
     }
 
     }
+

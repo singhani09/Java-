@@ -4,7 +4,7 @@ public class Sample4 {
         try {
         Sample4 s1 = null;
         System.err.println(s1.hashCode());
-        } catch (Exception e) {
+        } catch (NullPointerException e) {
             System.out.println("handled");
         }
         System.out.println("main ends");
